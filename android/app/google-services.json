@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "897461993498",
+    "project_id": "kidzo-f479a",
+    "storage_bucket": "kidzo-f479a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897461993498:android:961ab21bbb9cf01bb011a3",
+        "android_client_info": {
+          "package_name": "com.example.kidzo_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC57p0R3tJqj-Df_sWKHGXXz4I_g0BllRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
