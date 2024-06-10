@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
 import 'package:kidzo_app/Re-usable_Component/customsmallButton.dart';
+import 'package:kidzo_app/Screens/App/addTask.dart';
 
 import 'package:kidzo_app/Screens/login/imports.dart';
 import 'package:kidzo_app/Screens/signup/imports.dart';
@@ -52,7 +53,12 @@ class _ScheduleState extends State<Schedule> {
                         textAlign: TextAlign.start,
                       ),
                       Spacer(),
-                      SmallButton(name: "+ Add Task", onTap: (){} )
+                      SmallButton(
+                          name: "+ Add Task",
+                          onTap: () => Navigator.of(context).push(
+                              MaterialPageRoute(
+                                  builder: (BuildContext context) =>
+                                      AddTaskPAge())))
                     ],
                   ),
                   Container(
@@ -76,9 +82,7 @@ class _ScheduleState extends State<Schedule> {
                             fontSize: 18), onDateChange: (date) {
                       _selectedDate = date;
                     }),
-                    
                   ),
-                  
                 ],
               ),
             ),

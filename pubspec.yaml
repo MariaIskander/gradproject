@@ -62,7 +62,7 @@ dependencies:
   flutter_overlay_window: ^0.4.4
   google_maps_flutter: ^2.0.1
   firebase_app_installations: ^0.2.5+5
-  flutter_local_notifications: ^17.1.2
+  flutter_local_notifications: 
   # device_info_plus: ^10.1.0
   flutter_overlay_apps: ^1.2.0
   flutter_background_service: ^5.0.5

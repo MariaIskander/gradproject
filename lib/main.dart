@@ -4,15 +4,15 @@ import 'package:kidzo_app/Re-usable_Component/customprint.dart';
 import 'package:kidzo_app/Screens/packages/background_Services.dart';
 import 'package:kidzo_app/Screens/widget/logincheck.dart';
 import 'package:kidzo_app/Re-usable_Component/constant.dart';
-
+import 'package:kidzo_app/Services/NotificationServices.dart';
 import 'Screens/packages/overlay.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await initializeService();
 
-// hi
-  
+  await initializeService();
+  await NotificationService().initNotification();
+
   runApp(const MyApp());
 }
 
